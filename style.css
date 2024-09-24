@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+ font-family: "Gowun Batang", serif;
+  
+  
+ 
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/barber-fundo.jpg);
+    
+}
+.card{
+    margin: 50px;
+    background-color: rgba(213, 207, 207, 0.789);
+    color: #202020;
+    width: 400px; 
+    height:490px ;
+    border-radius: 10px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   text-align: center;
+  
+
+}
+.card>h1{
+    font-size: 23px;
+    padding-top: 10px;
+
+}
+.card>p{
+    font-size: 17px;
+    padding: 10px 10px;
+}
+.botao{
+
+   
+    
+    align-items: center;
+    font-size: 17px;
+    padding: 10px  50px;
+    border: none;
+    cursor: pointer;
+    background-color: #202020;
+    color: #fff;
+    border-radius:10px ;
+    font-weight: 600;
+    transition: 0.5;
+}
+.botao:hover{
+    background-color: #54525282;
+}
+
+
+.card>img{
+    width:100% ;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
